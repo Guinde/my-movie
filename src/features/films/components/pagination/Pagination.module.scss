@@ -1,0 +1,14 @@
+.container{
+    ul {
+        .pageNumber {
+            color: red;
+        }
+        li {
+            color: #007BFF;
+            cursor: pointer;
+        }
+        li:hover {
+            color: #0010FF;
+        }
+    }
+}
