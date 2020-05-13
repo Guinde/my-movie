@@ -1,8 +1,4 @@
-import * as axios from 'axios';
-
-export const apiFirebase = axios.create({
-    baseURL: "https://films-c0f18.firebaseio.com/"
-});
+import { apiFirebase } from './api.js'
 
 export default {
     fetchFavoris: async () => {
